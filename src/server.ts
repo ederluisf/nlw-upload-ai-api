@@ -9,5 +9,5 @@ app.register(getAllPromptsRoute);
 app.listen({
   port: 3333,
 }).then(() => {
-  log('HTTP Server Running!');
+  log('HTTP Server Running On http://localhost:3333/');
 });
